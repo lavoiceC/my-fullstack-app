@@ -1,5 +1,5 @@
 import mysql from "mysql2/promise";
-export const dynamic = 'force-dynamic';
+ const dynamic = 'force-dynamic';
 
 export async function GET(req) {
     const url = new URL(req.url);
@@ -28,5 +28,5 @@ const sql = 'SELECT * FROM cats'
 
 
           // can move this into app.get and send
- 
+
 

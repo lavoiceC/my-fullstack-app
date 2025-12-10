@@ -10,9 +10,8 @@ export default function RootLayout({ children}: { children: React.ReactNode})
        <body>
       <nav className="flex gap-4 text-black" >
         Luke Fullstack
-        <Link href="/insert">Insert</Link>
-        <Link href="/search" >Search</Link>
-        <Link href="/update">Update</Link>
+        <Link href="/Customer">Insert</Link>
+        
       </nav>
       {children}
 
